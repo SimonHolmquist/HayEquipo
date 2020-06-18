@@ -6,21 +6,18 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using HayEquipo.Models;
+using HayEquipo.data;
 
 namespace HayEquipo.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
+        private HayEquipoContext _context;
 
         public IActionResult Index()
         {
-            return View();
+            var players = _context.Players.ToList();
+            return View(players);
         }
 
         public IActionResult Privacy()
@@ -32,6 +29,11 @@ namespace HayEquipo.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+        public HomeController (HayEquipoContext context)
+        {
+            _context = context;
         }
     }
 }
