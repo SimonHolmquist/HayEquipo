@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\54381\\Documents\\HayEquipo\\HayEquipo.csproj": {}
+    "c:\\Users\\54381\\Documents\\HayEquipo\\HayEquipo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\54381\\Documents\\HayEquipo\\HayEquipo.csproj": {
+    "c:\\Users\\54381\\Documents\\HayEquipo\\HayEquipo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\54381\\Documents\\HayEquipo\\HayEquipo.csproj",
+        "projectUniqueName": "c:\\Users\\54381\\Documents\\HayEquipo\\HayEquipo.csproj",
         "projectName": "HayEquipo",
-        "projectPath": "C:\\Users\\54381\\Documents\\HayEquipo\\HayEquipo.csproj",
+        "projectPath": "c:\\Users\\54381\\Documents\\HayEquipo\\HayEquipo.csproj",
         "packagesPath": "C:\\Users\\54381\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\54381\\Documents\\HayEquipo\\obj\\",
+        "outputPath": "c:\\Users\\54381\\Documents\\HayEquipo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\54381\\AppData\\Roaming\\NuGet\\NuGet.Config"

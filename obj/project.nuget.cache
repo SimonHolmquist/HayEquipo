@@ -2,7 +2,7 @@
   "version": 2,
   "dgSpecHash": "yTs+z+rKoIz6y0vt8hedfLYFfsGtCo261KF9ZBFHmUrUXs6JbUWaZg+6pOczSBqxLGcWBQmhh4WCbwAiHduFHQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\54381\\Documents\\HayEquipo\\HayEquipo.csproj",
+  "projectFilePath": "c:\\Users\\54381\\Documents\\HayEquipo\\HayEquipo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\54381\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\54381\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
