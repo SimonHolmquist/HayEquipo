@@ -1,3 +1,4 @@
+using System.Security.Cryptography;
 using HayEquipo.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -15,8 +16,7 @@ namespace HayEquipo.data
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<Player>().HasData(
-                new Player("simon.holmquist@gmail.com", "13579adgjl"),
-                new Player("sim.holm@gmail.com", "adgjl13579")
+                new Player{Id = 1, Mail="simon.holmquist@gmail.com", Password= "13579adgjl"}
             );
         }
     }

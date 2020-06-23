@@ -2,7 +2,7 @@ using System;
 
 namespace HayEquipo.Models
 {
-    public class Account
+    public abstract class Account
     {
         private int id;
         private string mail;
