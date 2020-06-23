@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,csharp,aspnetcore
-# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,csharp,aspnetcore
+# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,aspnetcore,csharp
+# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,aspnetcore,csharp
 
 ### ASPNETCore ###
 ## Ignore Visual Studio temporary files, build results, and
@@ -494,4 +494,4 @@ MigrationBackup/
 # Ignore all local history of files
 .history
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,csharp,aspnetcore
+# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,aspnetcore,csharp
