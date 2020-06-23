@@ -16,12 +16,6 @@ namespace HayEquipo.Controllers
 
         public IActionResult Index()
         {
-            var players = _context.Players.ToList();
-            return View(players);
-        }
-
-        public IActionResult Privacy()
-        {
             return View();
         }
 
