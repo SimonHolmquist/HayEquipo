@@ -15,9 +15,6 @@ namespace HayEquipo.data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            modelBuilder.Entity<Player>().HasData(
-                new Player{Id = 1, Mail="simon.holmquist@gmail.com", Password= "13579adgjl"}
-            );
         }
     }
 }
